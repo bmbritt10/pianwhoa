@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tutorMenu</class>
+ <widget class="QWidget" name="tutorMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>863</width>
+    <height>533</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TutorMode</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+background-color:black;
+}</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>1041</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:black;</string>
+   </property>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>141</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+background:red;
+border: 1px solid black;
+color: white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string> QUIT TUTOR MODE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>100</y>
+      <width>661</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;</string>
+    </property>
+    <property name="text">
+     <string>Welcome to PianWHOA Tutor Mode! To learn how to play a song, click on the desired title below.
+You will be redirected to a new piano where a single key will light up. That is the first note in the
+song! When you press that key, the next key will light up until you have mastered the song!! 
+			         Goodluck!</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>260</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:black;
+border: 1px solid black;
+color:orange;
+}
+QPushButton:pressed{
+background: yellow;
+color:purple;
+}
+QPushButton:checked{
+background: yellow;
+color:purple;
+}</string>
+    </property>
+    <property name="text">
+     <string>Hot Cross Buns</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>210</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:black;
+border: 1px solid black;
+color:red;
+}
+QPushButton:pressed{
+background: yellow;
+color:purple;
+}
+QPushButton:checked{
+background: yellow;
+color:purple;
+}</string>
+    </property>
+    <property name="text">
+     <string>If You're Happy and You Know It </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>310</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:black;
+border: 1px solid black;
+color: yellow;
+}
+QPushButton:pressed{
+background: yellow;
+color:purple;
+}
+QPushButton:checked{
+background: yellow;
+color:purple;
+}</string>
+    </property>
+    <property name="text">
+     <string>Row Your Boat</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>360</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:black;
+border: 1px solid black;
+color:limegreen;
+}
+QPushButton:pressed{
+background: yellow;
+color:purple;
+}
+QPushButton:checked{
+background: yellow;
+color:purple;
+}</string>
+    </property>
+    <property name="text">
+     <string>Saria's Song (from Zelda)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>400</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: black;
+border: 1px solid black;
+color:purple;
+}
+QPushButton:pressed{
+background: yellow;
+color:purple;
+}
+QPushButton:checked{
+background: yellow;
+color:purple;
+}</string>
+    </property>
+    <property name="text">
+     <string>Twinkle Twinkle Little Star</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>40</y>
+      <width>361</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:blue;</string>
+    </property>
+    <property name="text">
+     <string>PianWHOA Tutor Menu</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>tutorMenu</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>77</x>
+     <y>-60</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>256</x>
+     <y>18</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>tutorMenu</receiver>
+   <slot>hot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>171</x>
+     <y>425</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>316</x>
+     <y>415</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>tutorMenu</receiver>
+   <slot>row()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>371</x>
+     <y>497</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>360</x>
+     <y>445</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>tutorMenu</receiver>
+   <slot>happy()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>499</x>
+     <y>415</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>768</x>
+     <y>427</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>tutorMenu</receiver>
+   <slot>zelda()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>146</x>
+     <y>502</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>232</x>
+     <y>452</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>tutorMenu</receiver>
+   <slot>twinkle()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>578</x>
+     <y>504</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>578</x>
+     <y>440</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>song1()</slot>
+  <slot>happy()</slot>
+  <slot>zelda()</slot>
+  <slot>row()</slot>
+  <slot>twinkle()</slot>
+  <slot>starwars()</slot>
+  <slot>hot()</slot>
+ </slots>
+</ui>

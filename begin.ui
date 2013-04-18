@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>begin</class>
+ <widget class="QWidget" name="begin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>872</width>
+    <height>505</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Welcome!</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:black;</string>
+  </property>
+  <widget class="QPushButton" name="pushb">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>270</y>
+     <width>114</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: yellow;</string>
+   </property>
+   <property name="text">
+    <string>tutormenu</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>270</y>
+     <width>114</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:yellow;</string>
+   </property>
+   <property name="text">
+    <string>freeplay</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>250</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>36</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+   <property name="text">
+    <string>PianWHOA!</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushb</sender>
+   <signal>clicked()</signal>
+   <receiver>begin</receiver>
+   <slot>tutor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>637</x>
+     <y>289</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>46</x>
+     <y>25</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>begin</receiver>
+   <slot>link()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>186</x>
+     <y>273</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>282</x>
+     <y>178</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>tutor()</slot>
+  <slot>link()</slot>
+ </slots>
+</ui>
