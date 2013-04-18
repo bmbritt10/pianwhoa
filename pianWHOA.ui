@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>834</width>
+    <width>875</width>
     <height>506</height>
    </rect>
   </property>
@@ -21,8 +21,8 @@
    <widget class="QPushButton" name="aButton">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>90</y>
+      <x>110</x>
+      <y>110</y>
       <width>61</width>
       <height>271</height>
      </rect>
@@ -63,8 +63,8 @@ else
    <widget class="QPushButton" name="sButton">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>90</y>
+      <x>170</x>
+      <y>110</y>
       <width>61</width>
       <height>271</height>
      </rect>
@@ -94,8 +94,8 @@ background: rgb(205,16,118);
    <widget class="QPushButton" name="dButton">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>90</y>
+      <x>230</x>
+      <y>110</y>
       <width>61</width>
       <height>271</height>
      </rect>
@@ -122,8 +122,8 @@ background: rgb(205,55,0);
    <widget class="QPushButton" name="fButton">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>90</y>
+      <x>290</x>
+      <y>110</y>
       <width>61</width>
       <height>271</height>
      </rect>
@@ -150,8 +150,8 @@ background: rgb(255,128,0);
    <widget class="QPushButton" name="gButton">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>90</y>
+      <x>350</x>
+      <y>110</y>
       <width>61</width>
       <height>271</height>
      </rect>
@@ -178,8 +178,8 @@ background: rgb(255,255,0);
    <widget class="QPushButton" name="hButton">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>90</y>
+      <x>410</x>
+      <y>110</y>
       <width>61</width>
       <height>271</height>
      </rect>
@@ -206,8 +206,8 @@ background: rgb(113,198,113);
    <widget class="QPushButton" name="jButton">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>90</y>
+      <x>470</x>
+      <y>110</y>
       <width>61</width>
       <height>271</height>
      </rect>
@@ -234,8 +234,8 @@ background: rgb(0,100,0);
    <widget class="QPushButton" name="kButton">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>90</y>
+      <x>530</x>
+      <y>110</y>
       <width>61</width>
       <height>271</height>
      </rect>
@@ -262,8 +262,8 @@ background: rgb(0,255,255);
    <widget class="QPushButton" name="wButton">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>90</y>
+      <x>150</x>
+      <y>110</y>
       <width>41</width>
       <height>141</height>
      </rect>
@@ -296,8 +296,8 @@ background: rgb(255,130,171);
    <widget class="QPushButton" name="eButton">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>90</y>
+      <x>210</x>
+      <y>110</y>
       <width>41</width>
       <height>141</height>
      </rect>
@@ -325,8 +325,8 @@ background: rgb(255,0,0);
    <widget class="QPushButton" name="tButton">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>90</y>
+      <x>330</x>
+      <y>110</y>
       <width>41</width>
       <height>141</height>
      </rect>
@@ -354,8 +354,8 @@ background: rgb(255,193,37);
    <widget class="QPushButton" name="yButton">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>90</y>
+      <x>390</x>
+      <y>110</y>
       <width>41</width>
       <height>141</height>
      </rect>
@@ -383,8 +383,8 @@ background: rgb(255,215,0);
    <widget class="QPushButton" name="uButton">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>90</y>
+      <x>450</x>
+      <y>110</y>
       <width>41</width>
       <height>141</height>
      </rect>
@@ -414,27 +414,28 @@ background: rgb(0,139,69);
      <rect>
       <x>20</x>
       <y>20</y>
-      <width>101</width>
-      <height>21</height>
+      <width>111</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton{
-background:blue;
+     <string notr="true">
+QPushButton{
+background:red;
 border: 1px solid black;
-color:white;
+color: white;
 }
 </string>
     </property>
     <property name="text">
-     <string>main menu</string>
+     <string>MAIN MENU</string>
     </property>
    </widget>
    <widget class="QPushButton" name="lButton">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>90</y>
+      <x>590</x>
+      <y>110</y>
       <width>61</width>
       <height>271</height>
      </rect>
@@ -461,8 +462,8 @@ background: rgb(30,144,255);
    <widget class="QPushButton" name="semiButton">
     <property name="geometry">
      <rect>
-      <x>610</x>
-      <y>90</y>
+      <x>650</x>
+      <y>110</y>
       <width>61</width>
       <height>271</height>
      </rect>
@@ -489,8 +490,8 @@ background: rgb(255,0,255);
    <widget class="QPushButton" name="apostButton">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>90</y>
+      <x>710</x>
+      <y>110</y>
       <width>61</width>
       <height>271</height>
      </rect>
@@ -517,8 +518,8 @@ background: rgb(75,0,130);
    <widget class="QPushButton" name="oButton">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>90</y>
+      <x>570</x>
+      <y>110</y>
       <width>41</width>
       <height>141</height>
      </rect>
@@ -546,8 +547,8 @@ background: rgb(122,197,205);
    <widget class="QPushButton" name="pButton">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>90</y>
+      <x>630</x>
+      <y>110</y>
       <width>41</width>
       <height>141</height>
      </rect>
@@ -575,9 +576,9 @@ background: rgb(16,78,139);
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>20</y>
-      <width>321</width>
+      <x>330</x>
+      <y>60</y>
+      <width>191</width>
       <height>41</height>
      </rect>
     </property>
@@ -594,31 +595,6 @@ background: rgb(16,78,139);
      <string>PianWHOA!</string>
     </property>
    </widget>
-  </widget>
-  <widget class="QToolBar" name="mainToolBar">
-   <attribute name="toolBarArea">
-    <enum>TopToolBarArea</enum>
-   </attribute>
-   <attribute name="toolBarBreak">
-    <bool>false</bool>
-   </attribute>
-  </widget>
-  <widget class="QStatusBar" name="statusBar"/>
-  <widget class="QMenuBar" name="menuBar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>834</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="menuPianWHOA">
-    <property name="title">
-     <string>PianWHOA!</string>
-    </property>
-   </widget>
-   <addaction name="menuPianWHOA"/>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>

@@ -19,42 +19,43 @@
   <widget class="QPushButton" name="pushb">
    <property name="geometry">
     <rect>
-     <x>610</x>
-     <y>270</y>
+     <x>620</x>
+     <y>220</y>
      <width>114</width>
      <height>32</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">
-color: yellow;</string>
+    <string notr="true">background:grey;
+color: white;</string>
    </property>
    <property name="text">
-    <string>tutormenu</string>
+    <string>Tutor Mode</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
      <x>130</x>
-     <y>270</y>
+     <y>220</y>
      <width>114</width>
      <height>32</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">color:yellow;</string>
+    <string notr="true">background: grey;
+color:white;</string>
    </property>
    <property name="text">
-    <string>freeplay</string>
+    <string>Freeplay</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>250</y>
-     <width>221</width>
+     <x>340</x>
+     <y>210</y>
+     <width>191</width>
      <height>51</height>
     </rect>
    </property>
@@ -64,7 +65,7 @@ color: yellow;</string>
     </font>
    </property>
    <property name="styleSheet">
-    <string notr="true">color:white;</string>
+    <string notr="true">color:yellow;</string>
    </property>
    <property name="text">
     <string>PianWHOA!</string>

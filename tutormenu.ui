@@ -33,7 +33,7 @@ background-color:black;
    <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>20</x>
       <y>30</y>
       <width>141</width>
       <height>32</height>
@@ -49,16 +49,16 @@ color: white;
 </string>
     </property>
     <property name="text">
-     <string> QUIT TUTOR MODE</string>
+     <string>QUIT TUTOR MODE</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>100</y>
+      <x>110</x>
+      <y>120</y>
       <width>661</width>
-      <height>101</height>
+      <height>111</height>
      </rect>
     </property>
     <property name="font">
@@ -71,10 +71,14 @@ color: white;
      <string notr="true">color:white;</string>
     </property>
     <property name="text">
-     <string>Welcome to PianWHOA Tutor Mode! To learn how to play a song, click on the desired title below.
-You will be redirected to a new piano where a single key will light up. That is the first note in the
-song! When you press that key, the next key will light up until you have mastered the song!! 
-			         Goodluck!</string>
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Times New Roman'; font-size:16pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Welcome to PianWHOA Tutor Mode! To learn how to play a song, click on a title below. You will be &lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;redirected to new piano where a single key will light up. That is the first note in the song! When you &lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;press that key, the next key will light up until you have mastered the song!&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Good luck!&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -83,8 +87,8 @@ song! When you press that key, the next key will light up until you have mastere
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>260</y>
+      <x>320</x>
+      <y>290</y>
       <width>261</width>
       <height>31</height>
      </rect>
@@ -117,8 +121,8 @@ color:purple;
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>210</y>
+      <x>320</x>
+      <y>250</y>
       <width>261</width>
       <height>31</height>
      </rect>
@@ -151,8 +155,8 @@ color:purple;
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>310</y>
+      <x>320</x>
+      <y>340</y>
       <width>261</width>
       <height>31</height>
      </rect>
@@ -185,8 +189,8 @@ color:purple;
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>360</y>
+      <x>320</x>
+      <y>390</y>
       <width>261</width>
       <height>31</height>
      </rect>
@@ -219,8 +223,8 @@ color:purple;
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>400</y>
+      <x>320</x>
+      <y>440</y>
       <width>261</width>
       <height>31</height>
      </rect>
@@ -235,15 +239,13 @@ color:purple;
      <string notr="true">QPushButton{
 background: black;
 border: 1px solid black;
-color:purple;
+color:blue;
 }
 QPushButton:pressed{
-background: yellow;
-color:purple;
+color:blue;
 }
 QPushButton:checked{
-background: yellow;
-color:purple;
+color:blue;
 }</string>
     </property>
     <property name="text">
@@ -253,9 +255,9 @@ color:purple;
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>40</y>
-      <width>361</width>
+      <x>260</x>
+      <y>70</y>
+      <width>371</width>
       <height>41</height>
      </rect>
     </property>
@@ -266,10 +268,10 @@ color:purple;
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color:blue;</string>
+     <string notr="true">color:yellow;</string>
     </property>
     <property name="text">
-     <string>PianWHOA Tutor Menu</string>
+     <string>PianWHOA! Tutor Mode</string>
     </property>
    </widget>
   </widget>

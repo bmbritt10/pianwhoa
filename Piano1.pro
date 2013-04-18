@@ -34,4 +34,4 @@ SOURCES += main.cpp pianWHOA.cpp \
     twinkletutor.cpp \
     happytutor.cpp \
     rowtutor.cpp \
-    hottutor.cpp \
+    hottutor.cpp

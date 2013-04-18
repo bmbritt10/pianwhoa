@@ -1,8 +1,8 @@
 /********************************************************************************
 ** Form generated from reading UI file 'pianWHOA.ui'
 **
-** Created: Thu Apr 18 13:17:36 2013
-**      by: Qt User Interface Compiler version 4.8.4
+** Created: Thu Apr 18 15:40:15 2013
+**      by: Qt User Interface Compiler version 4.7.4
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -17,11 +17,7 @@
 #include <QtGui/QHeaderView>
 #include <QtGui/QLabel>
 #include <QtGui/QMainWindow>
-#include <QtGui/QMenu>
-#include <QtGui/QMenuBar>
 #include <QtGui/QPushButton>
-#include <QtGui/QStatusBar>
-#include <QtGui/QToolBar>
 #include <QtGui/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -50,23 +46,19 @@ public:
     QPushButton *oButton;
     QPushButton *pButton;
     QLabel *label;
-    QToolBar *mainToolBar;
-    QStatusBar *statusBar;
-    QMenuBar *menuBar;
-    QMenu *menuPianWHOA;
 
     void setupUi(QMainWindow *pianWHOA)
     {
         if (pianWHOA->objectName().isEmpty())
             pianWHOA->setObjectName(QString::fromUtf8("pianWHOA"));
-        pianWHOA->resize(834, 506);
+        pianWHOA->resize(875, 506);
         centralWidget = new QWidget(pianWHOA);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         centralWidget->setStyleSheet(QString::fromUtf8("background-color:black;\n"
 ""));
         aButton = new QPushButton(centralWidget);
         aButton->setObjectName(QString::fromUtf8("aButton"));
-        aButton->setGeometry(QRect(70, 90, 61, 271));
+        aButton->setGeometry(QRect(110, 110, 61, 271));
         aButton->setAutoFillBackground(false);
         aButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:white;\n"
@@ -90,7 +82,7 @@ public:
         aButton->setChecked(false);
         sButton = new QPushButton(centralWidget);
         sButton->setObjectName(QString::fromUtf8("sButton"));
-        sButton->setGeometry(QRect(130, 90, 61, 271));
+        sButton->setGeometry(QRect(170, 110, 61, 271));
         sButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:white;\n"
 "border: 1px solid black;\n"
@@ -105,7 +97,7 @@ public:
         sButton->setChecked(false);
         dButton = new QPushButton(centralWidget);
         dButton->setObjectName(QString::fromUtf8("dButton"));
-        dButton->setGeometry(QRect(190, 90, 61, 271));
+        dButton->setGeometry(QRect(230, 110, 61, 271));
         dButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:white;\n"
 "border: 1px solid black;\n"
@@ -119,7 +111,7 @@ public:
         dButton->setCheckable(true);
         fButton = new QPushButton(centralWidget);
         fButton->setObjectName(QString::fromUtf8("fButton"));
-        fButton->setGeometry(QRect(250, 90, 61, 271));
+        fButton->setGeometry(QRect(290, 110, 61, 271));
         fButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:white;\n"
 "border: 1px solid black;\n"
@@ -133,7 +125,7 @@ public:
         fButton->setCheckable(true);
         gButton = new QPushButton(centralWidget);
         gButton->setObjectName(QString::fromUtf8("gButton"));
-        gButton->setGeometry(QRect(310, 90, 61, 271));
+        gButton->setGeometry(QRect(350, 110, 61, 271));
         gButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:white;\n"
 "border: 1px solid black;\n"
@@ -147,7 +139,7 @@ public:
         gButton->setCheckable(true);
         hButton = new QPushButton(centralWidget);
         hButton->setObjectName(QString::fromUtf8("hButton"));
-        hButton->setGeometry(QRect(370, 90, 61, 271));
+        hButton->setGeometry(QRect(410, 110, 61, 271));
         hButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:white;\n"
 "border: 1px solid black;\n"
@@ -161,7 +153,7 @@ public:
         hButton->setCheckable(true);
         jButton = new QPushButton(centralWidget);
         jButton->setObjectName(QString::fromUtf8("jButton"));
-        jButton->setGeometry(QRect(430, 90, 61, 271));
+        jButton->setGeometry(QRect(470, 110, 61, 271));
         jButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:white;\n"
 "border: 1px solid black;\n"
@@ -175,7 +167,7 @@ public:
         jButton->setCheckable(true);
         kButton = new QPushButton(centralWidget);
         kButton->setObjectName(QString::fromUtf8("kButton"));
-        kButton->setGeometry(QRect(490, 90, 61, 271));
+        kButton->setGeometry(QRect(530, 110, 61, 271));
         kButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:white;\n"
 "border: 1px solid black;\n"
@@ -189,7 +181,7 @@ public:
         kButton->setCheckable(true);
         wButton = new QPushButton(centralWidget);
         wButton->setObjectName(QString::fromUtf8("wButton"));
-        wButton->setGeometry(QRect(110, 90, 41, 141));
+        wButton->setGeometry(QRect(150, 110, 41, 141));
         QFont font;
         font.setPointSize(14);
         wButton->setFont(font);
@@ -207,7 +199,7 @@ public:
         wButton->setCheckable(true);
         eButton = new QPushButton(centralWidget);
         eButton->setObjectName(QString::fromUtf8("eButton"));
-        eButton->setGeometry(QRect(170, 90, 41, 141));
+        eButton->setGeometry(QRect(210, 110, 41, 141));
         eButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:black;\n"
 "border: 1px solid black;\n"
@@ -222,7 +214,7 @@ public:
         eButton->setCheckable(true);
         tButton = new QPushButton(centralWidget);
         tButton->setObjectName(QString::fromUtf8("tButton"));
-        tButton->setGeometry(QRect(290, 90, 41, 141));
+        tButton->setGeometry(QRect(330, 110, 41, 141));
         tButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:black;\n"
 "border: 1px solid black;\n"
@@ -237,7 +229,7 @@ public:
         tButton->setCheckable(true);
         yButton = new QPushButton(centralWidget);
         yButton->setObjectName(QString::fromUtf8("yButton"));
-        yButton->setGeometry(QRect(350, 90, 41, 141));
+        yButton->setGeometry(QRect(390, 110, 41, 141));
         yButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:black;\n"
 "border: 1px solid black;\n"
@@ -252,7 +244,7 @@ public:
         yButton->setCheckable(true);
         uButton = new QPushButton(centralWidget);
         uButton->setObjectName(QString::fromUtf8("uButton"));
-        uButton->setGeometry(QRect(410, 90, 41, 141));
+        uButton->setGeometry(QRect(450, 110, 41, 141));
         uButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:black;\n"
 "border: 1px solid black;\n"
@@ -267,16 +259,17 @@ public:
         uButton->setCheckable(true);
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(20, 20, 101, 21));
-        pushButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
-"background:blue;\n"
+        pushButton->setGeometry(QRect(20, 20, 111, 31));
+        pushButton->setStyleSheet(QString::fromUtf8("\n"
+"QPushButton{\n"
+"background:red;\n"
 "border: 1px solid black;\n"
-"color:white;\n"
+"color: white;\n"
 "}\n"
 ""));
         lButton = new QPushButton(centralWidget);
         lButton->setObjectName(QString::fromUtf8("lButton"));
-        lButton->setGeometry(QRect(550, 90, 61, 271));
+        lButton->setGeometry(QRect(590, 110, 61, 271));
         lButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:white;\n"
 "border: 1px solid black;\n"
@@ -290,7 +283,7 @@ public:
         lButton->setCheckable(true);
         semiButton = new QPushButton(centralWidget);
         semiButton->setObjectName(QString::fromUtf8("semiButton"));
-        semiButton->setGeometry(QRect(610, 90, 61, 271));
+        semiButton->setGeometry(QRect(650, 110, 61, 271));
         semiButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:white;\n"
 "border: 1px solid black;\n"
@@ -304,7 +297,7 @@ public:
         semiButton->setCheckable(true);
         apostButton = new QPushButton(centralWidget);
         apostButton->setObjectName(QString::fromUtf8("apostButton"));
-        apostButton->setGeometry(QRect(670, 90, 61, 271));
+        apostButton->setGeometry(QRect(710, 110, 61, 271));
         apostButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:white;\n"
 "border: 1px solid black;\n"
@@ -318,7 +311,7 @@ public:
         apostButton->setCheckable(true);
         oButton = new QPushButton(centralWidget);
         oButton->setObjectName(QString::fromUtf8("oButton"));
-        oButton->setGeometry(QRect(530, 90, 41, 141));
+        oButton->setGeometry(QRect(570, 110, 41, 141));
         oButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:black;\n"
 "border: 1px solid black;\n"
@@ -333,7 +326,7 @@ public:
         oButton->setCheckable(true);
         pButton = new QPushButton(centralWidget);
         pButton->setObjectName(QString::fromUtf8("pButton"));
-        pButton->setGeometry(QRect(590, 90, 41, 141));
+        pButton->setGeometry(QRect(630, 110, 41, 141));
         pButton->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "background:black;\n"
 "border: 1px solid black;\n"
@@ -348,27 +341,13 @@ public:
         pButton->setCheckable(true);
         label = new QLabel(centralWidget);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(260, 20, 321, 41));
+        label->setGeometry(QRect(330, 60, 191, 41));
         QFont font1;
         font1.setFamily(QString::fromUtf8("Times New Roman"));
         font1.setPointSize(36);
         label->setFont(font1);
         label->setStyleSheet(QString::fromUtf8("color:yellow;"));
         pianWHOA->setCentralWidget(centralWidget);
-        mainToolBar = new QToolBar(pianWHOA);
-        mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
-        pianWHOA->addToolBar(Qt::TopToolBarArea, mainToolBar);
-        statusBar = new QStatusBar(pianWHOA);
-        statusBar->setObjectName(QString::fromUtf8("statusBar"));
-        pianWHOA->setStatusBar(statusBar);
-        menuBar = new QMenuBar(pianWHOA);
-        menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 834, 22));
-        menuPianWHOA = new QMenu(menuBar);
-        menuPianWHOA->setObjectName(QString::fromUtf8("menuPianWHOA"));
-        pianWHOA->setMenuBar(menuBar);
-
-        menuBar->addAction(menuPianWHOA->menuAction());
 
         retranslateUi(pianWHOA);
         QObject::connect(pushButton, SIGNAL(clicked()), pianWHOA, SLOT(tutor()));
@@ -393,14 +372,13 @@ public:
         tButton->setText(QApplication::translate("pianWHOA", "T", 0, QApplication::UnicodeUTF8));
         yButton->setText(QApplication::translate("pianWHOA", "Y", 0, QApplication::UnicodeUTF8));
         uButton->setText(QApplication::translate("pianWHOA", "U", 0, QApplication::UnicodeUTF8));
-        pushButton->setText(QApplication::translate("pianWHOA", "main menu", 0, QApplication::UnicodeUTF8));
+        pushButton->setText(QApplication::translate("pianWHOA", "MAIN MENU", 0, QApplication::UnicodeUTF8));
         lButton->setText(QApplication::translate("pianWHOA", "L", 0, QApplication::UnicodeUTF8));
         semiButton->setText(QApplication::translate("pianWHOA", ";", 0, QApplication::UnicodeUTF8));
         apostButton->setText(QApplication::translate("pianWHOA", "'", 0, QApplication::UnicodeUTF8));
         oButton->setText(QApplication::translate("pianWHOA", "O", 0, QApplication::UnicodeUTF8));
         pButton->setText(QApplication::translate("pianWHOA", "P", 0, QApplication::UnicodeUTF8));
         label->setText(QApplication::translate("pianWHOA", "PianWHOA!", 0, QApplication::UnicodeUTF8));
-        menuPianWHOA->setTitle(QApplication::translate("pianWHOA", "PianWHOA!", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

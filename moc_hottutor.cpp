@@ -1,8 +1,8 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'hottutor.h'
 **
-** Created: Thu Apr 18 13:17:49 2013
-**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+** Created: Thu Apr 18 15:42:49 2013
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.7.4)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -10,8 +10,8 @@
 #include "hottutor.h"
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'hottutor.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.4. It"
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.7.4. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,7 +20,7 @@ QT_BEGIN_MOC_NAMESPACE
 static const uint qt_meta_data_hotTutor[] = {
 
  // content:
-       6,       // revision
+       5,       // revision
        0,       // classname
        0,    0, // classinfo
       25,   14, // methods
@@ -70,49 +70,9 @@ static const char qt_meta_stringdata_hotTutor[] = {
     "key14()\0key15()\0key16()\0key17()\0key18()\0"
 };
 
-void hotTutor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
-{
-    if (_c == QMetaObject::InvokeMetaMethod) {
-        Q_ASSERT(staticMetaObject.cast(_o));
-        hotTutor *_t = static_cast<hotTutor *>(_o);
-        switch (_id) {
-        case 0: _t->playSong(); break;
-        case 1: _t->stopSong(); break;
-        case 2: _t->noteBDown(); break;
-        case 3: _t->noteADown(); break;
-        case 4: _t->noteGDown(); break;
-        case 5: _t->playTutorSong((*reinterpret_cast< QList<char>(*)>(_a[1]))); break;
-        case 6: _t->playNoteGUI((*reinterpret_cast< char(*)>(_a[1]))); break;
-        case 7: _t->key1(); break;
-        case 8: _t->key2(); break;
-        case 9: _t->key3(); break;
-        case 10: _t->key4(); break;
-        case 11: _t->key5(); break;
-        case 12: _t->key6(); break;
-        case 13: _t->key7(); break;
-        case 14: _t->key8(); break;
-        case 15: _t->key9(); break;
-        case 16: _t->key10(); break;
-        case 17: _t->key11(); break;
-        case 18: _t->key12(); break;
-        case 19: _t->key13(); break;
-        case 20: _t->key14(); break;
-        case 21: _t->key15(); break;
-        case 22: _t->key16(); break;
-        case 23: _t->key17(); break;
-        case 24: _t->key18(); break;
-        default: ;
-        }
-    }
-}
-
-const QMetaObjectExtraData hotTutor::staticMetaObjectExtraData = {
-    0,  qt_static_metacall 
-};
-
 const QMetaObject hotTutor::staticMetaObject = {
     { &QMainWindow::staticMetaObject, qt_meta_stringdata_hotTutor,
-      qt_meta_data_hotTutor, &staticMetaObjectExtraData }
+      qt_meta_data_hotTutor, 0 }
 };
 
 #ifdef Q_NO_DATA_RELOCATION
@@ -138,8 +98,34 @@ int hotTutor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 25)
-            qt_static_metacall(this, _c, _id, _a);
+        switch (_id) {
+        case 0: playSong(); break;
+        case 1: stopSong(); break;
+        case 2: noteBDown(); break;
+        case 3: noteADown(); break;
+        case 4: noteGDown(); break;
+        case 5: playTutorSong((*reinterpret_cast< QList<char>(*)>(_a[1]))); break;
+        case 6: playNoteGUI((*reinterpret_cast< char(*)>(_a[1]))); break;
+        case 7: key1(); break;
+        case 8: key2(); break;
+        case 9: key3(); break;
+        case 10: key4(); break;
+        case 11: key5(); break;
+        case 12: key6(); break;
+        case 13: key7(); break;
+        case 14: key8(); break;
+        case 15: key9(); break;
+        case 16: key10(); break;
+        case 17: key11(); break;
+        case 18: key12(); break;
+        case 19: key13(); break;
+        case 20: key14(); break;
+        case 21: key15(); break;
+        case 22: key16(); break;
+        case 23: key17(); break;
+        case 24: key18(); break;
+        default: ;
+        }
         _id -= 25;
     }
     return _id;

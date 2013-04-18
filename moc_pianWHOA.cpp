@@ -1,8 +1,8 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'pianWHOA.h'
 **
-** Created: Thu Apr 18 13:17:44 2013
-**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+** Created: Thu Apr 18 15:42:43 2013
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.7.4)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -10,8 +10,8 @@
 #include "pianWHOA.h"
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'pianWHOA.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.4. It"
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.7.4. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,7 +20,7 @@ QT_BEGIN_MOC_NAMESPACE
 static const uint qt_meta_data_pianWHOA[] = {
 
  // content:
-       6,       // revision
+       5,       // revision
        0,       // classname
        0,    0, // classinfo
       19,   14, // methods
@@ -61,44 +61,9 @@ static const char qt_meta_stringdata_pianWHOA[] = {
     "key15()\0key16()\0key17()\0key18()\0tutor()\0"
 };
 
-void pianWHOA::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
-{
-    if (_c == QMetaObject::InvokeMetaMethod) {
-        Q_ASSERT(staticMetaObject.cast(_o));
-        pianWHOA *_t = static_cast<pianWHOA *>(_o);
-        switch (_id) {
-        case 0: _t->key1(); break;
-        case 1: _t->key2(); break;
-        case 2: _t->key3(); break;
-        case 3: _t->key4(); break;
-        case 4: _t->key5(); break;
-        case 5: _t->key6(); break;
-        case 6: _t->key7(); break;
-        case 7: _t->key8(); break;
-        case 8: _t->key9(); break;
-        case 9: _t->key10(); break;
-        case 10: _t->key11(); break;
-        case 11: _t->key12(); break;
-        case 12: _t->key13(); break;
-        case 13: _t->key14(); break;
-        case 14: _t->key15(); break;
-        case 15: _t->key16(); break;
-        case 16: _t->key17(); break;
-        case 17: _t->key18(); break;
-        case 18: _t->tutor(); break;
-        default: ;
-        }
-    }
-    Q_UNUSED(_a);
-}
-
-const QMetaObjectExtraData pianWHOA::staticMetaObjectExtraData = {
-    0,  qt_static_metacall 
-};
-
 const QMetaObject pianWHOA::staticMetaObject = {
     { &QMainWindow::staticMetaObject, qt_meta_stringdata_pianWHOA,
-      qt_meta_data_pianWHOA, &staticMetaObjectExtraData }
+      qt_meta_data_pianWHOA, 0 }
 };
 
 #ifdef Q_NO_DATA_RELOCATION
@@ -124,8 +89,28 @@ int pianWHOA::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 19)
-            qt_static_metacall(this, _c, _id, _a);
+        switch (_id) {
+        case 0: key1(); break;
+        case 1: key2(); break;
+        case 2: key3(); break;
+        case 3: key4(); break;
+        case 4: key5(); break;
+        case 5: key6(); break;
+        case 6: key7(); break;
+        case 7: key8(); break;
+        case 8: key9(); break;
+        case 9: key10(); break;
+        case 10: key11(); break;
+        case 11: key12(); break;
+        case 12: key13(); break;
+        case 13: key14(); break;
+        case 14: key15(); break;
+        case 15: key16(); break;
+        case 16: key17(); break;
+        case 17: key18(); break;
+        case 18: tutor(); break;
+        default: ;
+        }
         _id -= 19;
     }
     return _id;

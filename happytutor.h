@@ -1,5 +1,6 @@
 #ifndef happyTutor_H
 #define happyTutor_H
+
 #include "ui_happyTutor.h"
 #include<QSound>
 #include <QMainWindow>

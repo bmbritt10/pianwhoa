@@ -1,8 +1,8 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'zeldatutor.h'
 **
-** Created: Thu Apr 18 13:17:46 2013
-**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+** Created: Thu Apr 18 15:42:45 2013
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.7.4)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -10,8 +10,8 @@
 #include "zeldatutor.h"
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'zeldatutor.h' doesn't include <QObject>."
-#elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.4. It"
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.7.4. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -20,7 +20,7 @@ QT_BEGIN_MOC_NAMESPACE
 static const uint qt_meta_data_ZeldaTutor[] = {
 
  // content:
-       6,       // revision
+       5,       // revision
        0,       // classname
        0,    0, // classinfo
       32,   14, // methods
@@ -80,56 +80,9 @@ static const char qt_meta_stringdata_ZeldaTutor[] = {
     "key17()\0key18()\0"
 };
 
-void ZeldaTutor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
-{
-    if (_c == QMetaObject::InvokeMetaMethod) {
-        Q_ASSERT(staticMetaObject.cast(_o));
-        ZeldaTutor *_t = static_cast<ZeldaTutor *>(_o);
-        switch (_id) {
-        case 0: _t->playSong(); break;
-        case 1: _t->stopSong(); break;
-        case 2: _t->playTutorSong((*reinterpret_cast< QList<char>(*)>(_a[1]))); break;
-        case 3: _t->playNoteGUI((*reinterpret_cast< char(*)>(_a[1]))); break;
-        case 4: _t->noteFDown(); break;
-        case 5: _t->noteADown(); break;
-        case 6: _t->noteBDown(); break;
-        case 7: _t->noteHiEDown(); break;
-        case 8: _t->noteHiDDown(); break;
-        case 9: _t->noteHiCDown(); break;
-        case 10: _t->noteGDown(); break;
-        case 11: _t->noteEDown(); break;
-        case 12: _t->noteDDown(); break;
-        case 13: _t->noteHiFDown(); break;
-        case 14: _t->key1(); break;
-        case 15: _t->key2(); break;
-        case 16: _t->key3(); break;
-        case 17: _t->key4(); break;
-        case 18: _t->key5(); break;
-        case 19: _t->key6(); break;
-        case 20: _t->key7(); break;
-        case 21: _t->key8(); break;
-        case 22: _t->key9(); break;
-        case 23: _t->key10(); break;
-        case 24: _t->key11(); break;
-        case 25: _t->key12(); break;
-        case 26: _t->key13(); break;
-        case 27: _t->key14(); break;
-        case 28: _t->key15(); break;
-        case 29: _t->key16(); break;
-        case 30: _t->key17(); break;
-        case 31: _t->key18(); break;
-        default: ;
-        }
-    }
-}
-
-const QMetaObjectExtraData ZeldaTutor::staticMetaObjectExtraData = {
-    0,  qt_static_metacall 
-};
-
 const QMetaObject ZeldaTutor::staticMetaObject = {
     { &QMainWindow::staticMetaObject, qt_meta_stringdata_ZeldaTutor,
-      qt_meta_data_ZeldaTutor, &staticMetaObjectExtraData }
+      qt_meta_data_ZeldaTutor, 0 }
 };
 
 #ifdef Q_NO_DATA_RELOCATION
@@ -155,8 +108,41 @@ int ZeldaTutor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 32)
-            qt_static_metacall(this, _c, _id, _a);
+        switch (_id) {
+        case 0: playSong(); break;
+        case 1: stopSong(); break;
+        case 2: playTutorSong((*reinterpret_cast< QList<char>(*)>(_a[1]))); break;
+        case 3: playNoteGUI((*reinterpret_cast< char(*)>(_a[1]))); break;
+        case 4: noteFDown(); break;
+        case 5: noteADown(); break;
+        case 6: noteBDown(); break;
+        case 7: noteHiEDown(); break;
+        case 8: noteHiDDown(); break;
+        case 9: noteHiCDown(); break;
+        case 10: noteGDown(); break;
+        case 11: noteEDown(); break;
+        case 12: noteDDown(); break;
+        case 13: noteHiFDown(); break;
+        case 14: key1(); break;
+        case 15: key2(); break;
+        case 16: key3(); break;
+        case 17: key4(); break;
+        case 18: key5(); break;
+        case 19: key6(); break;
+        case 20: key7(); break;
+        case 21: key8(); break;
+        case 22: key9(); break;
+        case 23: key10(); break;
+        case 24: key11(); break;
+        case 25: key12(); break;
+        case 26: key13(); break;
+        case 27: key14(); break;
+        case 28: key15(); break;
+        case 29: key16(); break;
+        case 30: key17(); break;
+        case 31: key18(); break;
+        default: ;
+        }
         _id -= 32;
     }
     return _id;
